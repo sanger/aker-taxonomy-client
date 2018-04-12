@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require "taxonomy_client/version"
 
 Gem::Specification.new do |spec|
-  spec.name          = "aker-taxonomy-client"
+  spec.name          = "aker_taxonomy_client"
   spec.version       = TaxonomyClient::VERSION
   spec.authors       = ["Eduardo Martin Rojo"]
   spec.email         = ["emr@sanger.ac.uk"]
